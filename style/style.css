@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo{
+    height: 80px;
+    border-radius: 100%;
+}
+
+header{
+    margin: 15px;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    display: inline;
+    margin-left: 15px;
+}
+
+img{
+    height: 350px;
+    margin: 5px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.menu{
+    background-color: rgb(192, 223, 233);
+    display: grid;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+    margin: 5px;
+}
